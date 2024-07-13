@@ -26,7 +26,6 @@ q = MyQueue()
 
 q.enqueue(1)
 q.enqueue(2)
-q.enqueue(3)
 
 # Output the front of the queue
 print("Front of the queue:", q.peek())
@@ -35,7 +34,6 @@ print("Front of the queue:", q.peek())
 print("Dequeued value:", q.dequeue())
 print("Dequeued value:", q.dequeue())
 
-# Enqueue another value
 q.enqueue(4)
 
 # Output the front of the queue again

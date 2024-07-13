@@ -52,7 +52,6 @@ my_dll_1 = DoublyLinkedList(1)
 my_dll_1.append(2)
 my_dll_1.append(3)
 my_dll_1.append(2)
-my_dll_1.append(1)
 
 print('my_dll_1 is_palindrome:')
 print( my_dll_1.is_palindrome() )
